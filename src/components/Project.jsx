@@ -7,31 +7,31 @@ import { FaGithub } from 'react-icons/fa'
 const Project = () => {
     const projects = [
         {
-          title: "Digital Marketing",
+          title: "W3B Business Template",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
-          link: "https://business420.netlify.app/",
-          github: 'https://github.com/rohitsingh93300/YTBusiness',
-          image: Digital, // Replace with your project screenshot
+          techStack: ["React", "Tailwind", "Motion"],
+          link: "https://w3bstatic.netlify.app/",
+          github: 'https://github.com/kprateek87/w3bStaticSPA',
+          image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/677c56409e4d996028104b36/screenshot_2025-01-06-22-17-08-0000.webp&fit=cover&h=500&q=40&w=800", // Replace with your project screenshot
         },
         {
-          title: "Nike Shoes",
+          title: "Nike - A Shoe Store",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
-          link: "https://nike-topaz-delta.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Nike',
-          image: Nike, // Replace with your project screenshot
+          techStack: ["React", "Node.js", "Motion", "Lucide Icons"],
+          link: "https://nikeashoestore.netlify.app",
+          github: 'https://github.com/kprateek87/nikeAShoeStore',
+          image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/677c5b78be2c006927289eff/screenshot_2025-01-06-22-39-20-0000.webp&fit=cover&h=500&q=40&w=800", // Replace with your project screenshot
         },
         {
-          title: "Clothify",
+          title: "Clothify - Cloth Store",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
-          link: "https://clothify-two.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Clothify',
-          image: Clothify, // Replace with your project screenshot
+          techStack: ["React", "Tailwind"],
+          link: "https://clothifyclothstore.netlify.app/",
+          github: 'https://github.com/kprateek87/clothify-ClothStoreTemplate',
+          image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/677c57a51a99536082f94aa1/screenshot_2025-01-06-22-23-16-0000.webp&fit=cover&h=500&q=40&w=800", // Replace with your project screenshot
         },
       ];
   return (
