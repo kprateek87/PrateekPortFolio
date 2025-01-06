@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.text-shadow:hover {
+  text-shadow: 1px 1px 2px #fff, 1px 1px 5px #33cccc, 1px 1px 15px #33cccc,
+    2px 2px 30px #33cccc;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
